@@ -1,6 +1,10 @@
 <krpano version="1.20" title="Simple Panorama">
-  <image>
-    <!-- single equirectangular image -->
-    <sphere url="pano.jpg" />
-  </image>
+    <!-- webvr.xml - WebVR plugin, enter/exit VR buttons, VR cursor, VR setup -->
+    <include url="%SWFPATH%/plugins/webvr.xml" />
+    <!-- add/overwrite some settings from the webvr.xml for this example -->
+    <plugin name="WebVR" mobilevr_fake_support="true" />   
+    <image>
+        <!-- single equirectangular image -->
+        <sphere url="pano.jpg" />
+    </image>
 </krpano>
