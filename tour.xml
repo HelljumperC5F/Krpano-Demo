@@ -1,0 +1,6 @@
+<krpano version="1.20" title="Simple Panorama">
+  <image>
+    <!-- single equirectangular image -->
+    <sphere url="pano.jpg" />
+  </image>
+</krpano>
